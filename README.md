@@ -2,7 +2,11 @@
 
 Por Joshua Neftalí Marín Leynez
 
+
 Este proyecto implementa la primera fase de una plataforma académica unificada, siguiendo una Arquitectura Orientada a Servicios (SOA). El objetivo es demostrar la **interoperabilidad** entre servicios **RESTful** modernos (Java/Spring Boot) y servicios **SOAP** tradicionales (Python/Spyne), todos utilizando una **Base de Datos MySQL compartida**.
+
+**Analisis diseño y modelado de la BD**
+<img width="644" height="508" alt="image" src="https://github.com/user-attachments/assets/02dda84d-d41a-4d67-a716-cd6be82d2e8d" />
 
 
 ## Pruebas de Endpoints (Reporte POSTMAN)
