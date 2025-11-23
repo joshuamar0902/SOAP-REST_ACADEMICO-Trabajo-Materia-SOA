@@ -32,6 +32,11 @@ Las pruebas se realizaron con Postman, validando el CRUD de los servicios REST (
 <img width="921" height="510" alt="image" src="https://github.com/user-attachments/assets/8bf92c1f-2d5c-4c47-88e1-70e417960e49" />
 
 
+**Prueba de conexión entre el REST Y SOAP**
+<img width="921" height="871" alt="image" src="https://github.com/user-attachments/assets/c13b68b3-6dda-4b04-af2e-47bcd06a32fb" />
+
+
+
 **Ejemplo de Petición XML (CrearInscripcion):**
 
 ```xml
