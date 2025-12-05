@@ -57,3 +57,35 @@ Las pruebas se realizaron con Postman, validando el CRUD de los servicios REST (
       </acad:CrearInscripcion>
    </soapenv:Body>
 </soapenv:Envelope>
+
+```
+
+EXAMEN
+
+Post soap:
+Creacion de Alumno:
+<img width="921" height="620" alt="image" src="https://github.com/user-attachments/assets/67227b92-7e2b-4805-828d-f939f1c06f1b" />
+
+ 
+Buscar alumno por ID:
+<img width="921" height="459" alt="image" src="https://github.com/user-attachments/assets/14da9180-edf7-4fb9-9a0f-f1a1d5503a1a" />
+
+<img width="921" height="724" alt="image" src="https://github.com/user-attachments/assets/59886163-6237-4721-84ad-990957aeb398" />
+
+
+  
+
+Get REST(usuarios agregados con xml en soap)
+
+<img width="921" height="845" alt="image" src="https://github.com/user-attachments/assets/01aca31c-e950-43ff-80ae-11c207eae5d0" />
+
+ 
+
+
+
+
+
+
+
+ 
+
