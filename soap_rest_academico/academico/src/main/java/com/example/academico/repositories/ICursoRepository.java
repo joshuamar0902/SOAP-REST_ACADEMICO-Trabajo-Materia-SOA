@@ -1,12 +1,11 @@
 package com.example.academico.repositories;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.academico.models.RolesModel;
+import com.example.academico.models.CursoModel;
 
 @Repository
 
-public interface IRolesRepository extends JpaRepository<RolesModel, Long> {
+public interface ICursoRepository extends JpaRepository<CursoModel, Long>{
     
 }

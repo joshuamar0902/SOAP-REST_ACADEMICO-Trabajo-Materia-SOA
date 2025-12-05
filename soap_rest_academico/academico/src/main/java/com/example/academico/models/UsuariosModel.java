@@ -12,7 +12,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "usuarios")
+@Table(name = "ALUMNOS")
 public class UsuariosModel {
 
     @Id
@@ -23,10 +23,6 @@ public class UsuariosModel {
     @ManyToOne
     @JoinColumn(name = "id_carrera") // Esto crea la columna de la clave foránea en la tabla 'usuarios'
     private CarreraModel carrera;
-
-    @ManyToOne
-    @JoinColumn(name = "rol_usuario", nullable = false)
-    private RolesModel rol_usuario;
 
     @Column(name = "nombre", nullable = false, unique = true)
     private String nombre;
@@ -40,20 +36,16 @@ public class UsuariosModel {
     @Column(name = "fecha_nacimiento", nullable = false)
     private Date fecha_nacimiento;
 
+    @ManyToOne
+    @JoinColumn(name = "id_curso", insertable = false, updatable = false)
+    private CursoModel curso;
+
     public Long getId_usuario() {
         return id_usuario;
     }
 
     public void setId_usuario(Long id_usuario) {
         this.id_usuario = id_usuario;
-    }
-
-    public RolesModel getRol_usuario() {
-        return rol_usuario;
-    }
-
-    public void setRol_usuario(RolesModel rol_usuario) {
-        this.rol_usuario = rol_usuario;
     }
 
     public String getNombre() {
@@ -95,6 +87,15 @@ public class UsuariosModel {
     public void setCarrera(CarreraModel carrera) {
         this.carrera = carrera;
     }
+
+    public CursoModel getCurso() {
+        return curso;
+    }
+
+    public void setCurso(CursoModel curso) {
+        this.curso = curso;
+    }
+
 
 
 

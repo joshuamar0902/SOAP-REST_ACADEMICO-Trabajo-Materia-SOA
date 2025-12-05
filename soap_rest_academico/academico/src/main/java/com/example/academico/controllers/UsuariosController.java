@@ -18,7 +18,7 @@ import com.example.academico.models.UsuariosModel;
 import com.example.academico.services.UsuariosService;
 
 @RestController
-@RequestMapping("/api/usuarios")
+@RequestMapping("/api/alumnos")
 public class UsuariosController {
     @Autowired
     private UsuariosService usuariosService;

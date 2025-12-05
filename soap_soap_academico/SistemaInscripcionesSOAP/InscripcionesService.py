@@ -1,6 +1,6 @@
 from spyne.decorator import rpc
 from spyne.service import ServiceBase
-from spyne.model.primitive import Integer
+from spyne.model.primitive import Integer, Boolean
 from spyne.model.fault import Fault
 from datetime import datetime
 from Models import InscripcionModelSOAP

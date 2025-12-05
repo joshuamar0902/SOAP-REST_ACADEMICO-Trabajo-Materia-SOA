@@ -5,13 +5,17 @@ from spyne.server.wsgi import WsgiApplication
 import logging
 
 from InscripcionesService import InscripcionesService
+from AlumnoService import AlumnoService
+
+
+# Configuración de registro
 
 logging.basicConfig(level=logging.INFO)
 
 # 1. Crear la aplicación SpyNE
 app_soap = Application(
-    [InscripcionesService], 
-    tns='urn:academico.inscripciones.service', # Target Namespace único
+    [InscripcionesService,AlumnoService], 
+    tns='urn:academico.alumnos.service',
     in_protocol=Soap11(validator='lxml'),
     out_protocol=Soap11()
 )
